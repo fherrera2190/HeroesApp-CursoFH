@@ -8,10 +8,9 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "test":"jest --watchAll"
+    "test": "jest --watchAll"
   },
   "dependencies": {
-    "@rollup/rollup-win32-x64-msvc": "^4.13.0",
     "query-string": "^8.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -20,6 +19,7 @@
   "devDependencies": {
     "@babel/preset-env": "^7.24.3",
     "@babel/preset-react": "^7.24.1",
+    "@rollup/rollup-win32-x64-msvc": "^4.13.2",
     "@testing-library/react": "^14.2.2",
     "@types/jest": "^29.5.12",
     "@types/react": "^18.2.43",
